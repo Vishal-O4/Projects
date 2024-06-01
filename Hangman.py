@@ -1,7 +1,17 @@
 import random
 
 
-words = ["apple", "banana", "orange", "guava", "lemon", "pomegrante"]
+words = [
+    "Apple", "Banana", "Cherry", "Date", "Elderberry", "Fig", "Grape",
+    "Honeydew", "Jackfruit", "Kiwi", "Lemon", "Mango",
+    "Nectarine", "Orange", "Papaya", "Quince", "Raspberry", "Strawberry",
+    "Tangerine", "Watermelon", "Xigua", "Zucchini", "Avocado",
+    "Blueberry", "Cantaloupe", "DragonFruit", "Eggplant", "Huckleberry",
+    "Jujube", "Kumquat","Lime", "Mulberry", "Olive", "Peach",
+    "Pear", "Pineapple", "Pomegranate", "Rambutan",
+    "Starfruit", "Tomato", "Wolfberry", "Yuzu", "Zapote"
+]
+
 
 word = random.choice(words)
 guess = ""
