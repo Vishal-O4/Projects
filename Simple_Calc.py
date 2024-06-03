@@ -98,6 +98,7 @@ def button_equal():
 # Creating window
 w = Tk()
 w.title("Simple Calculator")
+w.iconbitmap("D:\\Programming\\Projects\\images\\calc.ico")
 
 # Textbox
 e = Entry(w, width=50, borderwidth=7, fg="white", bg="black", font=("Times", 10, "bold"),
